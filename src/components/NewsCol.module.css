@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "MontserratBold";
+  src: url(../assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+.newsCol {
+  font-family: "Montserrat";
+}
+
+.newsTitle {
+  font-family: "MontserratBold";
+  font-size: 1.375rem;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+
+.newsItem {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.newsImage {
+  width: 100%;
+  max-width: 13.125rem;
+  height: auto;
+  object-fit: cover;
+  border: 0.0625rem solid #ddd;
+}
+
+.newsCaption {
+  max-width: 13.5rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0.2rem 0 0.2rem 0;
+}
+.newsItem:hover .newsCaption:first-of-type {
+  text-decoration: underline;
+}
+
+.newsDate {
+  font-size: 0.75rem;
+  margin: 0;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.newsButton {
+  display: inline-block;
+  width: 13.125rem;
+  height: 2.875rem;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Montserrat";
+  text-align: center;
+  line-height: 2.875rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}

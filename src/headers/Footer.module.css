@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "DisketMono";
+  src: url(../assets/fonts/DisketMono/Disket-Mono-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "MontserratBold";
+  src: url(../assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+.footer {
+  display: flex;
+  background-color: white;
+  margin-left: 3.75rem; /* 60px */
+  padding: 0 2.1875rem 2.2rem 2.1875rem; /* 0 35px 40px 35px */
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.footerContent {
+  width: 71.875rem;
+  min-height: 21.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerSection {
+  height: 4.6875rem; /* 75px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.title {
+  font-family: "DisketMono";
+  font-size: 2.3125rem; /* 37px */
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-family: "DisketMono";
+  font-size: 1.1875rem; /* 19px */
+  font-weight: normal;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.divider {
+  width: 71.875rem;
+  height: 0.0625rem;
+  background-color: #000000;
+  border: none;
+  margin: 0.25rem 0;
+}
+
+.linksRow {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 59.375rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.linksRow a {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.linksRow a:hover {
+  color: #737373;
+}
+
+.complexRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 54rem; /* 47.5rem; */
+  width: 100%;
+  margin: 1.3rem 0;
+}
+
+.photosColumn {
+  display: flex;
+  gap: 1.5rem;
+  width: 19rem; /* 240px */
+}
+
+.photosColumn a img {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  /* border: 1px solid #ddd; */
+  transition: transform 0.3s ease;
+}
+
+/* .photosColumn a img:hover {
+  transform: scale(1.02);
+} */
+
+.contactColumn {
+  display: flex;
+  width: 28rem;
+  height: 2.1875rem;
+}
+
+.contactColumn:hover .contactButton {
+  background-color: #f0f0f0b8;
+}
+.contactColumn:hover .interestButton {
+  background-color: #f0f0f0b8;
+}
+
+.contactButton {
+  font-family: "MontserratBold";
+  font-size: 1rem;
+  background: white;
+  border: 1px solid #000000;
+  border-right: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  white-space: nowrap;
+  flex: 1;
+  transition: background-color 0.3s ease;
+}
+
+.interestButton {
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  background: white;
+  color: #808080;
+  border: 1px solid #000000;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  flex: 2;
+  transition: background-color 0.3s ease;
+}
+
+.imageColumn {
+  width: 2.8125rem;
+  height: 2.8125rem;
+}
+
+.footerIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.centerText {
+  max-width: 44.375rem;
+  min-height: 4.25rem;
+  text-align: center;
+}
+
+.centerText p {
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  margin: 0.25rem 0;
+  line-height: 1.4;
+}
+
+.bottomRow {
+  max-width: 59.375rem;
+  width: 100%;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.copyright {
+  font-family: "Montserrat";
+  font-size: 0.625rem;
+  color: #666;
+  margin: 0;
+}

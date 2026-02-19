@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "MontserratBold";
+  src: url(../assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+.mainContent {
+  font-family: "Montserrat";
+}
+.caption {
+  font-size: 1.25rem;
+}
+
+.mainTitle {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.mainSubtitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mainContainer {
+  position: relative;
+  display: inline-block;
+
+  margin-bottom: 40px;
+}
+
+.mainImage {
+  display: block;
+
+  width: 1100px;
+  height: 400px;
+  border: 1px solid #ddd;
+}
+
+.imageLabel {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: white;
+  background-color: #737373;
+  padding: 0.35rem 0.8rem;
+  border-radius: 0.55rem;
+  font-family: "OpenSans";
+  transition: all 0.3s ease;
+
+  z-index: 10;
+  line-height: 1;
+  margin: 0;
+}
+
+.mainItems {
+  display: flex;
+  gap: 3.5rem;
+  justify-content: left;
+  margin-bottom: 2.5rem;
+}
+
+.mainItem {
+  position: relative;
+  display: inline-block;
+
+  text-decoration: none;
+  color: inherit;
+  flex: 1;
+  max-width: 35rem;
+}
+
+.itemImage {
+  display: block;
+  width: 100%;
+  /* max-width: 13.125rem; */
+  /* height: 13rem; */
+  max-height: 14rem;
+
+  object-fit: cover;
+  border: 0.0625rem solid #ddd;
+}
+
+.itemCaption {
+  max-width: 13.5rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 0.2rem 0 0.2rem 0;
+  color: #000000;
+}

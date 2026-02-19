@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+@font-face {
+  font-family: "DisketMono";
+  src: url(../assets/fonts/DisketMono/Disket-Mono-Regular.ttf);
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url(../assets/fonts/OpenSans/OpenSans.ttf);
+}
+
+.backcover {
+  background-color: rgb(255, 0, 0);
+  margin-top: 4.5rem;
+  margin-left: 3.75rem;
+}
+.header {
+  display: flex;
+  height: 9.375rem;
+  background-color: white;
+  /* border-bottom: 3px solid #12b82e; */
+}
+hr {
+  background-color: #000000;
+  border: 0;
+  height: 0.0625rem;
+}
+
+.leftColumn {
+  flex: 1;
+  padding: 0.8rem 2.3rem;
+  max-width: 40rem;
+}
+.leftColumn .titleLink {
+  text-decoration: none;
+  font-family: "DisketMono";
+  color: black;
+}
+h1 {
+  font-weight: 400;
+  font-size: 2.35rem;
+  margin-bottom: 0;
+  margin-top: 1.25rem;
+}
+h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.verticalDivider {
+  width: 0.0625rem;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.rightColumn {
+  flex: 1;
+  margin-top: 1.875rem;
+  padding: 0.625rem;
+}
+.rightColumn .field {
+  justify-self: flex-end;
+  width: 28.4375rem;
+  margin-right: 1.875rem;
+}
+.topLinks {
+  display: flex;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  justify-content: stretch;
+  font-family: "OpenSans";
+  font-size: 1.31rem;
+}
+.topLinks a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+}
+/* .bottomLinksContainer {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  justify-content: stretch;
+  font-family: "OpenSans";
+  gap: 1.25rem; 
+}
+.bottomLinks a {
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: white;
+  background-color: #737373;
+  padding: 0.30rem 0.8rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+} */
+.bottomLinksContainer {
+  display: flex;
+  margin-top: 0.9rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  justify-content: stretch;
+  font-family: "OpenSans";
+  gap: 1.25rem;
+}
+
+.bottomLinks a {
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: white;
+  background-color: #737373;
+  padding: 0.35rem 0.8rem;
+  border-radius: 0.55rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.bottomLinks a:hover {
+  background-color: #878787;
+}
