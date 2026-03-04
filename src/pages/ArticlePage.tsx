@@ -2,7 +2,7 @@ import styles from "./MainPage.module.css";
 import NewsCol from "../components/NewsCol";
 import ArticleModel from "../components/ArticleModel";
 
-function TestArticlePage() {
+function ArticlePage() {
   return (
     <div className={styles.mainPage}>
       <div className={styles.leftColumn}>
@@ -16,4 +16,4 @@ function TestArticlePage() {
   );
 }
 
-export default TestArticlePage;
+export default ArticlePage;
